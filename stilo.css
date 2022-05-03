@@ -6,13 +6,20 @@ header{
     width: 250px;
     transition: 0.5s;
 }
-.ImgLogo:hover{
+.ImgLogoJS{
+    transition: 0.5s;
     width: 300px;
 }
 nav{
     position: absolute;
     top: 140px;
     right: 5px;
+}
+.navJs{
+    position: absolute;
+    top: 170px;
+    right: 5px;
+    transition: 0.5s;
 }
 nav a{
     color: #5668F0;
