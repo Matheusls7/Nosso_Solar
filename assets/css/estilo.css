@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background:linear-gradient(to right, #302F35,#589DD4);
+}
+
+
+body{
+    font-family: 'Mali', cursive;
+   
+}
+
+h1, h2 {
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-decoration: underline black;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid white;
+   
+}
+
+/*Submenu*/
+nav ul li ul {
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+}
+
+/*itens do submenu*/
+nav ul li ul li a {
+    width: 150px;
+    margin-top: -1px;
+    text-align: left;
+}
+
+nav ul li ul li a:hover{
+    background-color: orange;
+}
+
+nav li:hover ul{
+    display: block;
+
+}
+
+nav ul li a:hover {
+    background-color: orange;
+}
+
+
+#menu ul li a {
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+}
+
+nav ul li a:hover{
+    background-color: orange;
+}
+
+footer{
+    background:linear-gradient(to right, #302F35,#589DD4);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+.main-bg{
+    background-image: url('../img/fundo1.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.main-bg2{
+    background-image: url('../img/fundo2.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-bg3{
+    background-image: url('../img/comofunciona.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-bg4{
+    background-image: url('../img/economia.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-bg5{
+    background-image: url('../img/casa.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#coluna1 {
+    height: 500px;
+    width: 560px;
+    padding: 20px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 30px;
+    background-color: rgb(256,256,256,.5);
+}
+
+#coluna2{
+    height: 500px;
+    width: 560px;
+    padding: 20px;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 30px;
+    background-color: rgb(256,256,256,.5);
+
+}
+
+#h1 {
+    font-size: 45px;
+}
